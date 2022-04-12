@@ -42,7 +42,7 @@ public class Main{
         
         boolean run = true;
         String name = "";
-        
+        plane.printSeatingChart();
         while (run){
             System.out.println("Would you like to 1) add passenger 2) remove passenger 3) clear a column and replace passengers with people on the waiting list 4) display seating chart 5) display waiting list 6) quit");
             int x = scan.nextInt();
